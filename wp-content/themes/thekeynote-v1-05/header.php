@@ -30,8 +30,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-
-
 <?php
 
 	if($theme_option['enable-boxed-style'] == 'boxed-style'){
@@ -121,4 +119,3 @@
 
 	} // page style ?>
 	<div class="content-wrapper">
-

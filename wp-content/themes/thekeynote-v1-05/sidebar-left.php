@@ -2,7 +2,7 @@
 /**
  * A template for calling the left sidebar on everypage
  */
-
+ 
 	global $gdlr_sidebar;
 ?>
 
@@ -12,3 +12,4 @@
 	<?php dynamic_sidebar($gdlr_sidebar['left-sidebar']); ?>
 	</div>
 </div>
+<?php } ?>
